@@ -8,11 +8,22 @@
 
 ## Flutter Weather SDK
 
-Contains `StreamWeather` widget that basically contain 3 widgets to dynamically search for location and show the weather by a chosen one
+### Contains `StreamWeather` widget that basically contain 3 widgets to dynamically search for location and show the weather by a chosen one
 
 *  `StreamLocationSearchWidget` a widget that allows to look for location with autocomplete
 *  `StreamWeatherWidget` retrieve and show the weather by the given location coordinates
-*  `WeatherIconWidget` is a helper widget to show [weather conditions code](https://openweathermap.org/weather-conditions) from as an emoji
+*  `WeatherIconWidget` is a helper widget to show [weather conditions code](https://openweathermap.org/weather-conditions)  as an emoji
 
+1. It's possible to set up a default location before user starts to search*
 
+2. As well as setting one 1 of 3 measurement units which are reffered in code as `WeatherUnitsType`:
+    * `standard`
+    * `metric`
+    * `imperial`
 
+Temperature is available in Fahrenheit, Celsius and Kelvin units.
+Wind speed is available in miles/hour and meter/sec.
+
+For temperature in Fahrenheit and wind speed in miles/hour, use unitsType=`imperial`
+For temperature in Celsius and wind speed in meter/sec, use unitsType=`metric`
+UnitsType=`standard` refers o OpenWeathegit statusrMap API behaviour: temperature in Kelvin and wind speed in meter/sec.
