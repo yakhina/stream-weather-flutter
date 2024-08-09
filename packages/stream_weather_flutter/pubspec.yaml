@@ -1,0 +1,32 @@
+name: stream_weather_flutter
+description: "Flutter Weather SDK to show widgets with weather by location"
+version: 1.0.0+1
+repository: https://github.com/yakhina/stream-weather-flutter
+publish_to: "none"
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+  flutter: ">=2.12.0"
+
+
+dependencies:
+  stream_weather:
+    path: ../stream_weather
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        default_package: stream_weather_flutter
+      ios:
+        default_package: stream_weather_flutter
+      windows:
+        default_package: stream_weather_flutter
+      linux:
+        default_package: stream_weather_flutter
+      macos:
+        default_package: stream_weather_flutter
+      web:
+        default_package: stream_weather_flutter
+
+  uses-material-design: true

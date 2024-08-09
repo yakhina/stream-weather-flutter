@@ -1,0 +1,17 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "stream_weather_flutter_workspace",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    }
+  ],
+  "generated": "2024-08-09T21:09:56.153453Z",
+  "generator": "pub",
+  "generatorVersion": "3.5.0",
+  "flutterRoot": "file:///Users/yakhina/Development/flutter",
+  "flutterVersion": "3.24.0",
+  "pubCache": "file:///Users/yakhina/.pub-cache"
+}

@@ -1,0 +1,8 @@
+name: stream_weather_flutter_workspace
+description: "Dart Weather SDK to retrieve weather by location through OpenWeatherMap API with Flutter Weather SDK to show appropriate widgets"
+version: 1.0.0+1
+repository: https://github.com/yakhina/stream-weather-flutter
+publish_to: "none"
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'

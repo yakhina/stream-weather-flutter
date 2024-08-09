@@ -1,0 +1,28 @@
+name: stream_weather
+description: "Flutter Weather SDK to retrieve locations with cooridnates by a search query and fetch weather by exact location coordinates"
+version: 1.0.0+1
+repository: https://github.com/yakhina/stream-weather-flutter
+publish_to: "none"
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  async: ^2.11.0
+  dio: ^5.5.0+1
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  freezed_annotation: ^2.4.4
+  intl: ^0.19.0
+  json_annotation: ^4.9.0
+  logging: ^1.2.0
+  meta: ^1.12.0
+
+dev_dependencies:
+  json_serializable: ^6.8.0
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.11
+  test: ^1.25.8
+  mocktail: ^1.0.4
+
